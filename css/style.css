@@ -1,0 +1,99 @@
+body {
+	background-image: url('../images/index-bg.jpg');
+	background-repeat: no-repeat;
+	font-family: 'Montserrat', sans-serif;
+	background-position: 50% -10%; 
+}
+
+/*fonts*/
+.sz-zsix {
+	font-size: 0.6em;
+}
+
+.sz-zseven {
+	font-size:0.7em;
+}
+
+.txt-white {
+	color:#ffffff;
+}
+
+.txt-blue {
+	color:#002b5e;
+}
+
+.regular-monts {
+	font-weight: 400;
+}
+
+.bold-monts {
+	font-weight: bold;
+}
+
+.light-monts {
+	font-weight: 300;
+}
+
+
+
+.page-container {
+	position: relative;
+	width: 100%;
+
+}
+
+.page-menu {
+	background-color:#002b5e;
+}
+
+.logo {
+	width:150px;
+	height: 90px;
+}
+
+.page-info {
+	margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+	text-align: center;
+	position: relative;
+	padding: 0;
+	width: 80%;
+	height: auto;
+	background-color: #fff;
+	-webkit-border-radius: 0 0 15px 15px;
+  border-radius: 0 0 15px 15px;
+  -webkit-box-shadow:  2px 2px 7px 1px #bbb5b5;
+  box-shadow:  2px 2px 7px 1px #bbb5b5;
+}
+
+.schedule-title {
+	font-weight: bold;
+}
+
+.schedule-btn a {
+	font-weight: 300;
+}
+
+.page-info-title {
+	text-align: center;
+	margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+	background-color: rgba(222, 222, 220, 0.5);
+}
+
+
+.page-footer {
+	width: 100%;
+	height: auto;
+	background-color: rgba(0, 43, 94, 0.5);
+}
+
+.footer-contact {
+	
+}
+
+
+
+
