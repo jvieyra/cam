@@ -22,6 +22,15 @@ body {
 	color:#002b5e;
 }
 
+.txt-yellow {
+	color:#f9bb08;
+}
+
+.blank {
+	padding: 0;
+	margin:0;
+}
+
 .regular-monts {
 	font-weight: 400;
 }
@@ -52,6 +61,7 @@ body {
 }
 
 .page-info {
+	position: relative;
 	margin-left: auto;
   margin-right: auto;
   margin-bottom: 2em;
@@ -59,12 +69,41 @@ body {
 	position: relative;
 	padding: 0;
 	width: 80%;
-	height: auto;
 	background-color: #fff;
 	-webkit-border-radius: 0 0 15px 15px;
   border-radius: 0 0 15px 15px;
   -webkit-box-shadow:  2px 2px 7px 1px #bbb5b5;
   box-shadow:  2px 2px 7px 1px #bbb5b5;
+}
+
+.schedule {
+	position: relative;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+
+.schedule-line {
+	content: '';
+	width: 85%;
+	height: 0.5em;
+	margin-left: auto;
+  margin-right: auto;
+	position: relative;
+}
+
+.schedule-line-red {
+	background-color: red;
+}
+
+.schedule-line-yellow {
+	background-color: yellow;
+}
+.schedule-line-green {
+	background-color: green;
+}
+.schedule-line-blue {
+	background-color: blue;
 }
 
 .schedule-title {
@@ -80,14 +119,14 @@ body {
 	margin-left: auto;
   margin-right: auto;
   width: 100%;
-	background-color: rgba(222, 222, 220, 0.5);
+	background-color: rgba(222, 222, 220, 0.6);
 }
 
 
 .page-footer {
 	width: 100%;
 	height: auto;
-	background-color: rgba(0, 43, 94, 0.5);
+	background-color: rgba(0, 33, 50, 0.5);
 }
 
 .footer-contact {
