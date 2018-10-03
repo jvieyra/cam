@@ -96,6 +96,18 @@ body {
 	position: relative;
 }
 
+.separator-menu {
+	content: '';
+	width: 80%;
+	height: 1px;
+	background-color: #002b5e;
+	margin-top: 1em;
+	margin-bottom:1em;
+	margin-left: auto;
+  margin-right: auto;
+	position: relative;
+}
+
 .p-bootom {
 	padding-bottom: 1.2em;
 }
@@ -118,7 +130,39 @@ body {
   border-radius: 62px 0 0 62px;
 }
 
+/* menu */
 
+#menu {
+	display: none;
+	width:100vw;
+	height:100vh;
+	z-index: 1000;
+	position: fixed;
+	margin-left: auto;
+  margin-right: auto;
+	background-color: rgba(241, 241, 240, 0.8);
+}
+
+.navigation-m {
+	margin-top: 6em;
+}
+
+.actions {
+  /*su padre tiene que tener posicionamiento*/
+  position: absolute;
+  top:1em;
+  right:1em;
+  z-index: 1100;
+  cursor: pointer;
+
+}
+
+li .nav-list .nav-link {
+	display: block;
+}
+
+
+/* page */
 .page-container {
 	position: relative;
 	width: 100%;

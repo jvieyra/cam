@@ -9,6 +9,7 @@
 
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/animate.css">
 	<!-- fonts-->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,600,700" rel="stylesheet">
 
@@ -16,13 +17,49 @@
 
 </head>
 <body>
+	<div id="menu" class="">
+		<div class="actions">
+        <a id="close-menu" href="#" class="close">
+          <i class="fas fa-times-circle txt-blue"></i>
+        </a>
+      </div>
+	
+  		<ul class="navigation-m nav flex-column txt-white text-center">
+  			<li class="nav-list">
+    			<a class="nav-link txt-blue " href="https://www.google.com.mx">INICIO</a>
+  			</li>
+  			<div class="separator-menu"></div>
+			  <li class="nav-list">
+			    <a class="nav-link txt-blue " href="#">SEDE</a>
+			  </li>
+			  <div class="separator-menu"></div>
+			  <li class="nav-list">
+			    <a class="nav-link txt-blue " href="#">QUÉ OFRECEMOS</a>
+			  </li>
+			  <div class="separator-menu"></div>
+			  <li class="nav-list">
+			    <a class="nav-link txt-blue " href="#">DESCARGAS</a>
+			  </li>
+			  <div class="separator-menu"></div>
+			  <li class="nav-list">
+			    <a class="nav-link txt-blue " href="#">PREINSCRIPCION</a>
+			  </li>
+			  <div class="separator-menu"></div>
+			  <li class="nav-list">
+			    <a class="nav-link txt-blue " href="#">CONTACTO</a>
+			  </li>
+			</ul>
+
+
+  </div>
 	<div class="page-container" >
-  	<!-- <div class="menu">
-  		<span class="txt-white">MENÚ</span>
-  	</div> -->
+  	
+
     <div class="col col-lg-12 text-right page-menu txt-white">
     	 <img src="images/logo-thirty.svg" alt="thirty">
-       <span class="sz-zsix"> MENÚ</span>
+       <span class="sz-zsix">
+        <a id="open-menu" class="txt-white" href="">MENÚ</a> 
+       </span>
     </div>
   	<div class="page-logo">
   		<div class="col col-lg-12">
@@ -124,5 +161,6 @@
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="js/main.js" ></script>
 </body>
 </html>
